@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="main-image"><img class="image" id="profileformimg" src='assets/Profile Registration.png'/></div>
+        <div class="main-image"><img class="image" id='profileimg' src='assets/profile.png'/></div>
+        <div class="main-image"><img class="image" id='profiledice' src='assets/Dice.png'/></div>
+        <div class="main-image"><img class="image" id='profilecoupon' src='assets/Coupon.png'/></div>
+    </div>
+    <div id="profileform" class="main-form-inactive">
+        <h3>Profile form</h3>
+           <input type="text" name="username" placeholder="Enter your username">
+           <input type="text" name="name" placeholder="Enter your name">
+           <input type="email" name="email" placeholder="Enter your email">
+           <button id="save_profile">Save</button>
+    </div>
+    <div id="profile" class="main-form-inactive">
+        <h1>Profile</h1>
+           <h2 id="profilename"></h2>
+           <h3 id="profileusername"></h3>
+           <p>note:click on dice image to start the play</p>
+    </div>
+    <div id="dice" class="main-form-inactive">
+            <h1 id="dicerollcounter"></h1>
+            <h1 id="dicescore"></h1>
+            <img  class="image" id='diceroll' src="assets/diceroll.webp"/>
+    </div>
+    <div id="coupon" class="main-form-inactive">
+        <h1 id="couponid"></h1>
+        <img style="width" src="assets/congratulations.jpg"/>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
